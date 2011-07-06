@@ -1,6 +1,15 @@
-= oneup
+= oneup - Ruby library for Google+ (Google Plus)
 
-Description goes here.
+OneUp provides an object oriented Ruby library that can be used to access information provided by the Google+ API.  Some basic library structue
+has been modeled after the excellent Koala gem for Facebook.
+
+== Configuration
+
+  module OneUp
+    CONFIG = YAML.load_file(Rails.root.join("config/google_plus.yml"))[Rails.env]
+    APP_ID = CONFIG['app_id']
+    SECRET = CONFIG['secret_key']
+  end
 
 == Contributing to oneup
  

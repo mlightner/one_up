@@ -14,8 +14,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "oneup"
-  gem.homepage = "http://github.com/mlightner/oneup"
+  gem.name = "one_up"
+  gem.homepage = "http://github.com/mlightner/one_up"
   gem.license = "MIT"
   gem.summary = %Q{A Ruby library for the Google+ API.}
   gem.description = %Q{An elegant Ruby-esque library providing functionality for Google+ (Google Plus).}
